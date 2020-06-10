@@ -8,6 +8,7 @@ class Artist
     @name = name
     @songs = []
     @@all << self
+    self.save
   end
   
   def self.all
